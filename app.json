@@ -1,0 +1,16 @@
+{
+  "name": "Poster Finder API",
+  "description": "An API that extracts landscape posters from TMDB & OTT using messy movie names.",
+  "Contract": "https://t.me/RahatMx",
+  "env": {
+    "TMDB_API_KEY": {
+      "description": "TMDB API key",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
